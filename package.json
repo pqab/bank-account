@@ -1,0 +1,48 @@
+{
+  "name": "bank-account",
+  "version": "1.0.0",
+  "description": "A set of API using to simulate the functionality of a basic bank account.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "jest --forceExit",
+    "apidoc": "apidoc -i src/ -o doc/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "jest": "^22.0.5",
+    "mongoose": "^4.13.9",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  },
+  "apidoc": {
+    "title": "Bank Account apiDoc",
+    "sampleUrl": "http://localhost:33000",
+    "order": [
+      "OpenAccount",
+      "CloseAccount",
+      "AccountBalance",
+      "WithdrawMoney",
+      "DepositMoney",
+      "TransferMoney"
+    ]
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqab/bank-account.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pqab/bank-account/issues"
+  },
+  "homepage": "https://github.com/pqab/bank-account#readme"
+}
