@@ -4,7 +4,7 @@ A set of API using to simulate the functionality of a basic bank account.
 
 ### APIs explorer
 
-https://bank-account.herokuapp.com/
+https://bank-account.herokuapp.com/doc
 
 ### Dependencies
 
