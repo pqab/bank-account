@@ -23,7 +23,7 @@
   },
   "apidoc": {
     "title": "Bank Account apiDoc",
-    "sampleUrl": "https://bank-account.herokuapp.com/doc",
+    "sampleUrl": "https://bank-account.herokuapp.com",
     "order": [
       "OpenAccount",
       "CloseAccount",
