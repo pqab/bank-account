@@ -23,7 +23,7 @@
   },
   "apidoc": {
     "title": "Bank Account apiDoc",
-    "sampleUrl": "http://localhost:33000",
+    "sampleUrl": "https://bank-account.herokuapp.com/doc",
     "order": [
       "OpenAccount",
       "CloseAccount",
@@ -32,6 +32,9 @@
       "DepositMoney",
       "TransferMoney"
     ]
+  },
+  "jest": {
+    "verbose": true
   },
   "directories": {
     "doc": "doc",
