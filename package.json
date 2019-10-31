@@ -15,7 +15,7 @@
     "express": "^4.16.2",
     "express-validator": "^4.3.0",
     "jest": "^22.0.5",
-    "mongoose": "^4.13.9",
+    "mongoose": "^5.7.5",
     "supertest": "^3.0.0"
   },
   "devDependencies": {
